@@ -21,8 +21,8 @@ image = Image.open('Nationwide.png')
 
 st.image(image, width=256)
 
-st.title('Credit Spreads Wizard')
-st.subheader('Last updated on April 26th, 2022')
+st.title('Deep Learning Credit Spreads Forecast Wizard')
+st.subheader('Last updated on May 8th, 2022')
 
 date = list(df0['Date'])
 dfindicators = list(df.columns)
