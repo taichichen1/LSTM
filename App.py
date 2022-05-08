@@ -21,7 +21,7 @@ image = Image.open('Nationwide.png')
 
 st.image(image, width=256)
 
-st.title('Deep Learning Credit Spreads Forecast Wizard')
+st.title('Nationwide Investment Risk Management: Deep Learning Credit Spreads Forecast Wizard')
 st.subheader('Last updated on May 8th, 2022')
 
 date = list(df0['Date'])
